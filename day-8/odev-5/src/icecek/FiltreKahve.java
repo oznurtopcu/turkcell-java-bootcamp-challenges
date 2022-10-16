@@ -13,11 +13,11 @@ public class FiltreKahve extends Kahve implements Demlenebilir,SicakIcilir,Soguk
 
     @Override
     public void sicak() {
-        System.out.println(this.getAdi() + " sicak icilebilir");
+        System.out.println(this.getAdi() + " sicak");
     }
 
     @Override
     public void soguk() {
-        System.out.println(this.getAdi() + " soguk icilebilir");
+        System.out.println(this.getAdi() + " soguk");
     }
 }

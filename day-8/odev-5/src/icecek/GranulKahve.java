@@ -13,6 +13,6 @@ public class GranulKahve extends Kahve implements Cozunebilir,SicakIcilir{
 
     @Override
     public void sicak() {
-        System.out.println(this.getAdi() + " sicak icilebilir");
+        System.out.println(this.getAdi() + " sicak");
     }
 }

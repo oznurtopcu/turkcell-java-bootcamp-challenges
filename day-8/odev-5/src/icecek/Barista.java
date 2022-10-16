@@ -9,9 +9,11 @@ public class Barista {
     }
     public void sicakIcecekHazirla(SicakIcilir sicakIcilir){
         sicakIcilir.sicak();
+        System.out.println(" hazirlandi");
     }
     public void sogukIcecekHazirla(SogukIcilir sogukIcilir){
         sogukIcilir.soguk();
+        System.out.println(" hazirlandi");
     }
 
 }
